@@ -1,4 +1,6 @@
-
+body {
+    margin: 0 auto;
+}
 p, h5 {
     text-align: center;
 }
@@ -49,4 +51,18 @@ nav {
 
 #rights {
     color: white;
+}
+#active {
+    color: white;
+    text-decoration: underline;
+}
+#active:hover {
+    color: lightyellow;
+}
+.info {
+    font-weight: bold;
+}
+
+.menuitem {
+    padding: 1rem;
 }
