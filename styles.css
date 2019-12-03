@@ -1,0 +1,52 @@
+
+p, h5 {
+    text-align: center;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#chicken {
+    padding: 3rem;
+}
+
+a {
+    color: white;
+    font-style: italic;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #B57A6F;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+#fb {
+    display: inline-block;
+}
+
+footer,
+nav {
+    background-color: #823E33;
+}
+
+#rights {
+    color: white;
+}
