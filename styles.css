@@ -1,7 +1,11 @@
 body {
     margin: 0 auto;
+    padding-right: 0;
+    width: 100%;
 }
-p, h5 {
+
+p,
+h5 {
     text-align: center;
 }
 
@@ -31,7 +35,8 @@ h3 {
 .hours {
     display: flex;
     flex-direction: column;
-    justify-content: center;;
+    justify-content: center;
+    ;
     align-items: center;
 }
 
@@ -41,7 +46,15 @@ img {
 }
 
 #fb {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#fbicon {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 footer,
@@ -52,17 +65,55 @@ nav {
 #rights {
     color: white;
 }
+
 #active {
     color: white;
     text-decoration: underline;
+    font-size: 1.8rem;
 }
+
 #active:hover {
     color: lightyellow;
 }
+
 .info {
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .menuitem {
     padding: 1rem;
+}
+
+.navbar-nav>li {
+    padding: 20px;
+}
+
+.site-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+}
+
+input[type=submit] {
+    background-color: #823E33;
+    color: white;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.container-contact {
+    padding-left: 15px;
+}
+main {
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 5rem;
+}
+.schedule {
+    padding-top: 7%;
 }

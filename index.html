@@ -24,12 +24,12 @@
 <body>
     <header class="site-header">
         <div class="row">
-            <div class="col-sm-4 container"><a href="index.html"><img src="images/logo.png"></a>
-                
+            <div class="col-sm-4 container">
             </div>
-            <div class="col-sm-4 container"><p class="info">We do carry-out and catering orders!
+            <div class="col-sm-4 container">
+                <p class="info">We do carry-out and catering orders!
                     <br>(704) 455-3525</p>
-           </div>
+            </div>
             <div class="col-sm-4 container">
                 <p class="info">5429 Highway 49
                     <br>Harrisburg, NC 28075</p>
@@ -37,13 +37,17 @@
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-1">
+    <nav class="navbar navbar-expand-lg navbar-dark darken-4">
         <div class="container">
-            <button class="navbar-toggler btn-light" type="button" data-toggle="collapse" data-target="#navbar10">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="mx-auto position-relative">
+                <a class="mx-auto" href="index.html"><img src="images/logo.png"></a>
+
+                <button class="navbar-toggler btn-light" type="button" data-toggle="collapse" data-target="#navbar10">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="navbar-collapse collapse" id="navbar10">
-                <ul class="nav navbar-nav navbar-center">
+                <ul class="navbar-nav nav-fill w-100">
                     <li class="nav-item">
                         <a class="nav-link" href="menu.html">Menu</a>
                     </li>
@@ -60,12 +64,12 @@
 
     <div class="row">
         <div class="col-lg-6">
-            <div class="col-sm-12">
-            <img src="images/welcome.png" id="welcome">
-        </div>
+            <div class="col-sm-12 text-center">
+                <img src="images/welcome.png" id="welcome" style="width: 50%">
+            </div>
             <img id="chicken" src="images/grilled_chicken_sandwich_1200x600_slider-1024x512.jpg">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 schedule">
             <div class="hours">
                 <h3>Hours of Operation</h3>
                 <h5>Monday - Saturday: 6 am - 9 pm</h5>
@@ -84,10 +88,11 @@
     <div class="row">
         <div class="container-fluid">
             <footer class="site-footer">
-                <div id="fb"><h4>Follow us!</h4><a
-                    href="https://www.facebook.com/Harrisburg-Family-House-Restaurant-111601472209422/"><img
-                        src="images/facebook-icon_32x32.png"></a>
-                    </div>
+                <div id="fb">
+                    <h4>Follow us!</h4><a
+                        href="https://www.facebook.com/Harrisburg-Family-House-Restaurant-111601472209422/"><img
+                            src="images/facebook-icon_32x32.png" id="fbicon"></a>
+                </div>
                 <p id="rights">© 2018 HARRISBURG FAMILY HOUSE. ALL RIGHTS RESERVED.</p>
             </footer>
         </div>
