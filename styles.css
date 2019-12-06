@@ -111,6 +111,20 @@ main {
     margin-left: 10px;
 }
 
+main p {
+    text-align: left;
+    padding: 1rem;
+}
+
+main h4 {
+    text-align: center;
+    padding: 1rem;
+}
+
+main img {
+    margin: auto;
+}
+
 h1{
     font-size: 5rem;
 }
